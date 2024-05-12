@@ -1,6 +1,7 @@
 import { ppu } from './Datos/variable.js';
 const inputPpu = document.getElementById('ppu');
 const tarjetas = document.getElementById('tarjetas');
+
 const botonBuscar = document.getElementById('boton');
 
 let urlImg;
@@ -25,7 +26,7 @@ botonBuscar.addEventListener('click', () => {
 
     let fechaReal = `${dia}-${mes}-${ano}`;
 
-    if ((elemento.SUBSIDIO = 'SI')) {
+    if (elemento.SUBSIDIO == 'SI') {
       urlImg = 'asset/subsidiado.png';
     } else {
       urlImg = 'asset/nosubsidiado.png';
