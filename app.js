@@ -1,11 +1,6 @@
 import { ppu } from './Datos/variable.js';
 const inputPpu = document.getElementById('ppu');
-const patente = document.getElementById('patente');
-const modo = document.getElementById('modo');
-const fecha = document.getElementById('fecha');
-const subsidio = document.getElementById('subsidio');
 const tarjetas = document.getElementById('tarjetas');
-
 const botonBuscar = document.getElementById('boton');
 
 let urlImg;
