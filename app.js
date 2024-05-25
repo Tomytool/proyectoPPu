@@ -34,7 +34,7 @@ botonBuscar.addEventListener('click', () => {
 
     let tarjeta = document.createElement('div');
 
-    tarjeta.innerHTML = `<div class="w-[95%] bg-slate-50 h-auto p-3 mt-2 mx-auto rounded-3xl flex justify-between"><img class="w-16 h-16" src=${urlImg} alt="" srcset=""><div class="flex flex-col"><h2><strong>${elemento.PLACA}</strong></h2><h3>${elemento.MODO}</h3><h3>${fechaReal}</h3></div>`;
+    tarjeta.innerHTML = `<div class="w-[300px] bg-slate-50 h-auto p-3 mt-2 mx-auto rounded-3xl flex justify-between"><img class="w-16 h-16" src=${urlImg} alt="" srcset=""><div class="flex flex-col"><h2><strong>${elemento.PLACA}</strong></h2><h3>${elemento.MODO}</h3><h3>${fechaReal}</h3></div>`;
     tarjetas.append(tarjeta);
   });
   inputPpu.value = '';
